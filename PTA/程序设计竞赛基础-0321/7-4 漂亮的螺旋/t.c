@@ -20,13 +20,12 @@ int main(void){
         }
         i ++;
         mat[i][j] = ++ m;
-        if (m >= n * n) goto hell;
+        if (m >= n * n) break;
         while (i + j != n - 1){
             j --;
             mat[i][j] = ++ m;
         }
     }
-    hell:
     for (j = 0; j < n; j ++){
         for (i = 0; i < n; i ++) i == n - 1 ? printf("%d", mat[i][j]) : printf("%-4d", mat[i][j]);
         printf("\n");
