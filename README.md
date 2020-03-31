@@ -12,7 +12,7 @@ Currently this repo has collected the problems of the following online judges.
 
 Clone this repo on your local machine, make additions to the problem sets and call a merge request.
 
-Please respect the structure and naming rule, I will work out an automatic menu composer when free.
+Please respect the structure and naming rule, I will work out an automatic menu composer when free. Currently the menu is shown in tree-structure in the MAP.md file.
 
 ### Repo structure demo
 
