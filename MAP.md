@@ -1,4 +1,4 @@
-```bash
+```
 .
 ├── MAP.md
 ├── PTA
@@ -93,8 +93,11 @@
 │   │   │   ├── info.jpg
 │   │   │   ├── info.txt
 │   │   │   └── t.c
-│   │   └── 1086 就不告诉你
-│   │       ├── info.jpg
+│   │   ├── 1086 就不告诉你
+│   │   │   ├── info.jpg
+│   │   │   ├── info.txt
+│   │   │   └── t.c
+│   │   └── 1091 N-自守数
 │   │       ├── info.txt
 │   │       └── t.c
 │   ├── info.txt
