@@ -7,6 +7,7 @@
 Currently this repo has collected the problems of the following online judges.
 
 - [PTA](https://pintia.cn/)
+- [Codeup](http://codeup.cn/)
 
 ## Submission guide
 
