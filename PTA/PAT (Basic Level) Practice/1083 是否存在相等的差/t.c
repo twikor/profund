@@ -6,9 +6,7 @@ int main(){
     scanf("%d", &n);
     for (int i = 1; i <= n; i ++){
         scanf("%d", &numTemp);
-        if (!cou[abs(numTemp - i)]){
-            dif[couI ++] = abs(numTemp - i);
-        }
+        if (!cou[abs(numTemp - i)]) dif[couI ++] = abs(numTemp - i);
         cou[abs(numTemp - i)] ++;
     }
     for (int i = 0; i < couI; i ++){
@@ -19,7 +17,7 @@ int main(){
                 dif[j + 1] = t;
             }
         }
-    }
+    }//排序只需更新检索表即可
     for (int i = 0; i < couI; i ++){
         if (cou[dif[i]] != 1){
             if (i != couI - 1) printf("%d %d\n", dif[i], cou[dif[i]]);
